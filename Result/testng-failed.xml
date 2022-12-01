@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Body Links]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Case_1(failed)">
+    <parameter name="StartUrl" value="https://beta.coinzix.com"/>
+    <classes>
+      <class name="Main_code.MainCode">
+        <methods>
+          <include name="mainCode" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- Main_code.MainCode -->
+    </classes>
+  </test> <!-- Case_1(failed) -->
+</suite> <!-- Failed suite [Body Links] -->

@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+
+
+<suite name="Body Links">
+
+        <test name="Case_1">
+            <parameter name="StartUrl" value="https://beta.coinzix.com"/>
+<!--            <parameter name="UrlAssert" value="https://coinzix-stage1.intary.net/buy-crypto"/>-->
+        <classes>
+            <class name="Main_code.MainCode"/>
+        </classes>
+        </test>
+
+<!--    <test name="Case_1">-->
+<!--        <parameter name="StartUrl" value="https://coinzix-stage1.intary.net"/>-->
+<!--        <parameter name="UrlAssert" value="https://coinzix-stage1.intary.net/buy-crypto"/>-->
+<!--    <classes>-->
+<!--        <class name="By_crypto.Credit_DebitCard"/>-->
+<!--    </classes>-->
+<!--    </test>-->
+
+<!--    <test name="Case_2">-->
+<!--        <parameter name="StartUrl" value="https://coinzix-stage1.intary.net"/>-->
+<!--        <parameter name="UrlAssert" value="https://coinzix-stage1.intary.net/wallet"/>-->
+<!--        <classes>-->
+<!--            <class name="By_crypto.Deposit_Euro"/>-->
+<!--        </classes>-->
+<!--    </test>-->
+
+<!--    <test name="Case_3">-->
+<!--        <parameter name="StartUrl" value="https://coinzix-stage1.intary.net"/>-->
+<!--        <parameter name="UrlAssert" value="https://coinzix-stage1.intary.net/markets"/>-->
+<!--        <classes>-->
+<!--            <class name="Markets.Markets"/>-->
+<!--        </classes>-->
+<!--    </test>-->
+
+<!--    <test name="Case_4">-->
+<!--        <parameter name="StartUrl" value="https://coinzix-stage1.intary.net"/>-->
+<!--        <parameter name="UrlAssert" value="https://coinzix-stage1.intary.net/spot/exchange"/>-->
+<!--        <classes>-->
+<!--            <class name="Trade.Instant"/>-->
+<!--        </classes>-->
+<!--    </test>-->
+
+<!--    <test name="Case_5">-->
+<!--        <parameter name="StartUrl" value="https://coinzix-stage1.intary.net"/>-->
+<!--        <parameter name="UrlAssert" value="https://coinzix-stage1.intary.net/spot/trading/BTCUSDT"/>-->
+<!--        <classes>-->
+<!--            <class name="Trade.Advanced"/>-->
+<!--        </classes>-->
+<!--    </test>-->
+
+<!--    <test name="Case_6">-->
+<!--        <parameter name="StartUrl" value="https://coinzix-stage1.intary.net"/>-->
+<!--        <parameter name="UrlAssert" value="https://coinzix-stage1.intary.net/tournaments/list/1"/>-->
+<!--        <classes>-->
+<!--            <class name="Trade.Trading_Competition"/>-->
+<!--        </classes>-->
+<!--    </test>-->
+
+<!--    <test name="Case_7">-->
+<!--        <parameter name="StartUrl" value="https://coinzix-stage1.intary.net"/>-->
+<!--        <parameter name="UrlAssert" value="https://coinzix-stage1.intary.net/"/>-->
+<!--        <classes>-->
+<!--            <class name="Trade.Demo_Trading"/>-->
+<!--        </classes>-->
+<!--    </test>-->
+
+<!--    <test name="Case_8">-->
+<!--        <parameter name="StartUrl" value="https://coinzix-stage1.intary.net"/>-->
+<!--        <parameter name="UrlAssert" value="https://blog.coinzix.com/"/>-->
+<!--        <classes>-->
+<!--            <class name="Blog.Blog"/>-->
+<!--        </classes>-->
+<!--    </test>-->
+
+<!--    <test name="Case_9">-->
+<!--        <parameter name="StartUrl" value="https://coinzix-stage1.intary.net"/>-->
+<!--        <parameter name="UrlAssert" value="https://coinzix-stage1.intary.net/staking"/>-->
+<!--        <classes>-->
+<!--            <class name="Staking.Staking"/>-->
+<!--        </classes>-->
+<!--    </test>-->
+
+<!--    <test name="Case_10">-->
+<!--        <parameter name="StartUrl" value="https://coinzix-stage1.intary.net"/>-->
+<!--        <parameter name="UrlAssert" value="https://v2.coinzix.com/en/atm"/>-->
+<!--        <classes>-->
+<!--            <class name="Coin_search.Coin_search"/>-->
+<!--        </classes>-->
+<!--    </test>-->
+
+<!--    <test name="Case_11">-->
+<!--        <parameter name="StartUrl" value="https://coinzix-stage1.intary.net"/>-->
+<!--        <parameter name="UrlAssert" value="https://coinzix-stage1.intary.net/Launchpad"/>-->
+<!--        <classes>-->
+<!--            <class name="Launchpad.Launchpad"/>-->
+<!--        </classes>-->
+<!--    </test>-->
+
+<!--    <test name="Case_12">-->
+<!--        <parameter name="StartUrl" value="https://coinzix-stage1.intary.net"/>-->
+<!--        <parameter name="UrlAssert" value="https://coinzix-stage1.intary.net/login"/>-->
+<!--        <classes>-->
+<!--            <class name="Login.Login"/>-->
+<!--        </classes>-->
+<!--    </test>-->
+
+<!--    <test name="Case_13">-->
+<!--        <parameter name="StartUrl" value="https://coinzix-stage1.intary.net"/>-->
+<!--        <parameter name="UrlAssert" value="https://coinzix-stage1.intary.net/sign-up"/>-->
+<!--        <classes>-->
+<!--            <class name="Wallet.Wallet_Dep_BTC"/>-->
+<!--        </classes>-->
+<!--    </test>-->
+
+<!--    <test name="Case_14">-->
+<!--        <parameter name="StartUrl" value="https://coinzix-stage1.intary.net"/>-->
+<!--        <parameter name="UrlAssert" value="https://support.coinzix.com/?l=en-Us"/>-->
+<!--        <classes>-->
+<!--            <class name="Support.Support"/>-->
+<!--        </classes>-->
+<!--    </test>-->
+
+<!--    <test name="Case_15">-->
+<!--        <parameter name="StartUrl" value="https://coinzix-stage1.intary.net"/>-->
+<!--        <parameter name="UrlAssert" value="https://coinzix-stage1.intary.net/"/>-->
+<!--        <classes>-->
+<!--            <class name="Theme.Theme"/>-->
+<!--        </classes>-->
+<!--    </test>-->
+
+<!--    <test name="Case_16">-->
+<!--        <parameter name="StartUrl" value="https://coinzix-stage1.intary.net"/>-->
+<!--        <parameter name="UrlAssert" value="https://coinzix-stage1.intary.net/ro"/>-->
+<!--        <classes>-->
+<!--            <class name="Language.Language"/>-->
+<!--        </classes>-->
+<!--    </test>-->
+
+
+</suite>
